@@ -1,52 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+* {
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
-:root {
-    --cor-principal: #6E859F;
-    --cor-secundaria: #0d6efd;
-    ;
-    --cor-destaque: #800000;
 
+img {
+    width: 300px;
+    height: 300px;
 }
 
 
 
-body {
+header {
 
-    font-family: 'chakra Petch', sans-serif;
-    color: var(--cor-principal);
-    font-weight: 500;
+    display: flex;
+    /* 1. Transforma o <header> em um container flexível. */
+    flex-direction: column;
+    /* 2. Organiza os itens (imagem, h1, h2) em uma coluna (um embaixo do outro). */
+    align-items: center
+        /* 3. Centraliza os itens horizontalmente (no meio da largura do header). */
 }
 
-h1,
-h2,
-h5 {
-    color: var(--cor-secundaria);
-    font-weight: 700;
+h1 {
+    color: #00468c;
 }
 
-.lead {
-
-    color: var(--cor-principal);
-    font-weight: 700;
-    font-size:25px;
+h2 {
+    color: #e3b482;
+    font-weight: 900;
+    font-size: 30px;
 }
 
-.font {
-    font-size: 18px;
- 
+p {
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align-last: center;
+}
+
+.paragrafo {
+    padding: 10px;
+    background-color: #00468c;
+    color: white;
+    border-radius:10px;
 
 }
 
-.atuacao {
-    text-align: justify;
-    font-size: 15px;
+a{
+    color:white;
+    text-decoration: none;
+    padding:10px;
+    background:#00468c;
+    border-radius:10px;
 }
 
-footer a {
 
-    color: var(--cor-principal);
+div{
+    display:flex;
+    justify-content: space-between;
 }
 
-footer a:hover {
-    color: var(--cor-destaque);
+a:hover{
+    color: #e3b482;
 }
