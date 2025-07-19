@@ -1,18 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu portfólio</title>
+    <title>Página de Apresentação</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <style>
+        p{
+            color:gray;
+            font-size:20px;
+        }
+
+        h1,h2{
+            color:#00468c;
+            font-size: 25px;
+        }
+    </style>
 </head>
+
 <body>
-    <header>
-        <img src="https://avatars.githubusercontent.com/u/80862278?v=4" alt="minha_imagem">
+    <header class="container text-center">
+        <img src="meuavatar.png" alt="minha_imagem" class="rounded-circle" width="300" heigth="300">
         <h1>Meu nome é Washington Fernandes de Barros</h1>
-        <h2>Sou professor de matemática</h2>
+        <h2 class="lead">Sou professor de matemática</h2>
         <p>
-             Além da minha atuação como professor de matemática, também mantenho interesse
+            Além da minha atuação como professor de matemática, também mantenho interesse
             em internet das coisas (IoT), robótica educacional, data science e inteligência artificial.
 
             No momento estou dando meus primeiros passos no desenvolvimento web com HTML,
@@ -20,22 +38,15 @@
             de Internet das Coisas (IoT).
         </p>
 
-        <p style="color:#e3b482;">Minhas habilidades</p>
-        <p class="paragrafo">Habilidade analítica e raciocínio lógico</p>
-        <p class="paragrafo">Conhecimentos em programação</p>
-        <p class="paragrafo">Aptidão para o aprendizado de novas tecnologias</p>
+        <p>Minhas habilidades</p>
+        <p class="badge bg-secondary">Habilidade analítica e raciocínio lógico</p>
+        <p class="badge bg-secondary" >Conhecimentos em programação</p>
+        <p class="badge bg-secondary">Aptidão para o aprendizado de novas tecnologias</p>
     </header>
-      <footer>
-            <h2 style="color: #e3b482;;">Entre em contato</h2>
-            <div>
-                <a href="https://github.com/Was01">GitHub</a>
-                <a href="https://www.instagram.com/washingtonfernandes228/">Instagram</a>
-                <a href="https://www.youtube.com/@was266/playlists">Canal do youtube</a>
-              
-            </div>
-            <p>© Copyright 2025. Produzido por Washington Fernandes de Barros </p>
+    <footer class="container py-5">
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Washington Fernandes de Barros </p>
     </footer>
-    
+
 </body>
+
 </html>
-    
